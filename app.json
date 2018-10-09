@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "name": "JoinMe",
+    "version": "0.0.3",
+    "privacy": "public",
+    "scheme": "joinme",
+    "splash": {
+      "image": "./src/screens/Splash/assets/splash.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "cover"
+    },
+    "notification": {
+      "icon": "./src/images/notification_icon.png"
+    },
+    "facebookAppId": "216524539214115",
+    "facebookScheme": "fb216524539214115",
+    "facebookDisplayName": "JoinMe",
+    "orientation": "portrait",
+    "icon": "./src/images/icon.png",
+    "ios": {
+      "icon": "./src/images/icon.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "fr.joinme.joinmeapplication",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Use your camera to send video invitations.",
+        "NSLocationWhenInUseUsageDescription": "JoinMe sends invitations with the address of your current location.",
+        "NSMicrophoneUsageDescription": "Use your microphone to record audio for your invitations."
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "icon": "./src/images/icon-android.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/images/icon-android-foreground.png",
+        "backgroundImage": "./src/images/icon-android-background.png"
+      },
+      "package": "fr.joinme.joinmeapplication"
+    },
+    "slug": "joinme",
+    "description": ""
+  }
+}
